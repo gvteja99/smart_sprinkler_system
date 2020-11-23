@@ -1,10 +1,11 @@
 # Introduction
 
-Watering plants or crop is the main problem we face these days. Much manual effort is kept in watering crops, and the motor should be kept on and off at regular intervals. If you are out of the station, it becomes a problem. Sometimes, we may not know whether a crop should be watered or not at that particular time. In this project, I developed a system where we can monitor the soil moisture values and also control the motor using the cloud. This project is designed to help farmers know their soil's moisture and water their crops from anywhere in the world.
-I used a soil moister sensor to get the moister values, and this data is sent to ESP-32, which uses its Wi-Fi module to transfer the data to the cloud. I used the Ubidots cloud service platform to view the data and control the motor. I used the MQTT protocol where the sensor works as a publisher, and the relay is a subscriber.
-Components used:
+Watering plants or crop is the main problem we face these days. Much manual effort is kept in watering crops, and the motor should be kept on and off at regular intervals. If you are out of the station, it becomes a problem. Sometimes, we may not know whether a crop should be watered or not at that particular time. 
+
+In this project, I developed a system where we can monitor the soil moisture values and also control the motor using the cloud. This project is designed to help farmers know their soil's moisture and water their crops from anywhere in the world. I used a soil moister sensor to get the moister values, and this data is sent to ESP-32, which uses its Wi-Fi module to transfer the data to the cloud. I used the Ubidots cloud service platform to view the data and control the motor. I used the MQTT protocol where the sensor works as a publisher, and the relay is a subscriber.
+
 Following are components I used for building the smart sprinkler
-1. Esp-32 board
+1. ESP-32 board
 2. Relay (4 – module)
 3. Soil moister sensor
 4. Ac motor
